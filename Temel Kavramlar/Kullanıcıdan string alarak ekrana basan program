@@ -1,2 +1,0 @@
-a=input("bir sayi giriniz") # int fonksiyonu kullanılmadığı için girllen değer string'dir
-print("girdiğiniz sayı=",a)
