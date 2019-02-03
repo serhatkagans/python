@@ -1,0 +1,6 @@
+# kullanıcıdan alınan üç sayıyı çarparak formaat metodu ile ekrana yazan program.
+a=int(input("birinci sayıyı giriniz"))
+b=int(input("ikinci sayıyı giriniz"))
+c=int(input("üçüncü sayıyı giriniz"))
+carpim=a*b*c
+print("girdiğiniz {}, {} ve {} sayılarını çarpımı= {} dir".format(a,b,c,carpim))
