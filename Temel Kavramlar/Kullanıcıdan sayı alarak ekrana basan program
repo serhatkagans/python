@@ -1,2 +1,2 @@
-a=int(input("bir sayi giriniz"))
+a=int(input("bir sayi giriniz")) # int fonksiyonu kullanıldığı için sayı integer'a çevrildi
 print("girdiğiniz sayı=",a)
