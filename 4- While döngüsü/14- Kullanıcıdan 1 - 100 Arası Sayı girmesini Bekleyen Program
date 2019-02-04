@@ -1,0 +1,10 @@
+print("kullanıcının 1-100 arası sayı girmesini bekleyen program")
+while True:
+    a=int(input("bir sayı girinz"))
+    if a>=100:
+        print("girdiğiniz sayı 100 den büyüktür.. tekrar deneyin")
+    elif a<=0:
+        print("girdiğiniz sayı 0 dan küçük.. tekrar deneyin")
+    else:
+        print("tebrikler doğru giriş yaptınız")
+        break
