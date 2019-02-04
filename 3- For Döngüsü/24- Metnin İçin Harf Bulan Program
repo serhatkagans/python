@@ -1,0 +1,7 @@
+a=input("bir cümle yazınız")
+harf=input("aradığınız harfi giriniz")
+sayac=0
+for i in a:
+    if harf==i:
+        sayac+=1
+print(sayac)
