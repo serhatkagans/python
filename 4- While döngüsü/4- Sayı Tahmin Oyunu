@@ -1,0 +1,18 @@
+sayi=int(input("bir sayı giriniz"))
+alt=1
+ust=99
+while True:
+    tahmin=int((alt+ust)/2)
+    print("cevabım",tahmin)
+    cevap=input("sonucu söyleyin; bildiysem b tuttuğum sayı küçükse k tuttuğum sayı büyükse b")
+    if cevap=="d":
+        print("bildim")
+        break
+    elif cevap =="b":
+        ust=tahmin
+    elif cevap=="k":
+        alt=tahmin
+    else:
+        print("hatalı bir tuşa bastınız")
+
+print("program sonlandı")
