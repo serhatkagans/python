@@ -1,8 +1,0 @@
-asal=0
-for i in range (2,1000):
-    for j in range (2,i):
-        if i%j==0:
-            asal+=1
-    if asal==0:
-        print(i)
-    asal=0
