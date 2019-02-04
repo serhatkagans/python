@@ -1,0 +1,8 @@
+# kullanıcının giydiği boy uzunluğuna göre normal uzun kısa yazan program
+boy=int(input("lüten boyunuzu cm cinsinden giriniz"))
+if boy<170:
+    print("boyunuz kısa")
+elif boy<180:
+    print("boyunuz normal")
+else:
+    print("boyunuz uzun")
