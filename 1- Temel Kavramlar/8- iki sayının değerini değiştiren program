@@ -2,3 +2,4 @@ a=int(input("1. sayıyı giriniz"))
 b=int(input("2. sayıyı giriniz"))
 a,b=b,a
 print("a nın yeni değeri {} b nin yeni değeri {}".format(a,b))
+ 
