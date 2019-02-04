@@ -1,0 +1,7 @@
+liste=[1,4,5,6,9,52,41,32,6]
+toplam=0
+for i in liste:
+    toplam=toplam+i
+print("listedeki eleman sayısı",len(liste))
+ort=toplam/len(liste)
+print("listedeki sayıların ortalaması",ort)
