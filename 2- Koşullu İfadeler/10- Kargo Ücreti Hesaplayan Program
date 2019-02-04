@@ -1,0 +1,7 @@
+# kargo ücreti 50 tl den büyükse kargo ücresiz olacak değilse 7 tl kargo ücreti olacak
+a=int(input("sipariş tutarını giriniz"))
+if a>=50:
+    print("ürün tutarı ve kargo ücreti(kargo ücretisiz) = ",a)
+else:
+    print("ürün tutarı ve kargo ücreti = ",a+7)
+
