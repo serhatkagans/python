@@ -2,4 +2,4 @@
 vize=int(input("vize notunu giriniz"))
 final=int(input(("final notunu giriniz")))
 ort=(vize*0.3+final*0.7)
-print("ortalama={}".format(ort))
+print("ortalama={}".format(ort)) 
