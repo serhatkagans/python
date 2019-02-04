@@ -1,0 +1,9 @@
+while True:
+    a=input("kare kökü alınacak bir sayı giriniz.. çıkmak için q")
+    if a=="q":
+        break
+    if int(a)<0:
+        print("lütfen 0 dan büyük sayı giriniz")
+        continue
+
+    print("girdiğiniz sayının karekökü",int(a)**0.5)
