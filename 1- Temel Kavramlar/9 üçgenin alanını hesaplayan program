@@ -2,3 +2,4 @@ a=int(input("üçgenin taban uzunluğunu giriniz"))
 h=int(input("üçgenin yüksekliğini giriniz"))
 alan=(a*h)/2
 print("taban uznluğu {} yüksekliği {} olan üçgenin alanı ={} dır.".format(a,h,alan))
+ 
