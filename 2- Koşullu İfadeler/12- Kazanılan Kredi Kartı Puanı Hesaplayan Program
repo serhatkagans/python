@@ -1,0 +1,8 @@
+# ortam sıcaklığına göre suyun katı sıvı gaz olduğunu hesaplayan program
+derece=int(input("sıcaklığı giriniz"))
+if derece<=0:
+    print("su katı haldedir")
+elif derece<100:
+    print("su sıvı haldedir")
+else:
+    print("su buhar halindedir.")
