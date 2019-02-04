@@ -1,0 +1,9 @@
+a=int(input("bir sayı giriniz"))
+muk=0
+for i in range (1,a):
+    if a%i ==0:
+        muk +=i
+if muk==a:
+    print("sayı mükemmel")
+else:
+    print("sayı mükemmel değil")
