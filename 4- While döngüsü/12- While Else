@@ -1,0 +1,11 @@
+i=1
+print("türkiye'nin başkentini giriniz 3 hakkınız var")
+while i<4:
+    a=input()
+    if a=="ankara" or a=="Ankara":
+        print("tebrikler doğru bildiniz program kapanıyor")
+        break
+    print(i,". hakkınız bilemediniz")
+    i += 1
+else:
+    print("maalesef 3 hakkınız doldu")
