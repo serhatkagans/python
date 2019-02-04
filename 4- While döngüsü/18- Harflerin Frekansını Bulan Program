@@ -1,0 +1,11 @@
+a="ProgramlamaÖdeviİleriSeviyeVeriYapılarıveObjeleripynb"
+j=0
+harf=0
+for i in a:
+    while j<len(a):
+        if i==a[j]:
+            harf+=1
+        j+=1
+    print("{} = {}".format(i,harf))
+    j=0
+    harf=0
