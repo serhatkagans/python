@@ -1,0 +1,9 @@
+kilo = float(input("kargonun ağırlığını giriniz"))
+if kilo<2:
+    print("ödemeniz gereken üceret =", kilo*6)
+elif kilo>=2 and kilo<6:
+    print("ödemeniz gereken üceret =", kilo * 5)
+elif kilo>=6 and kilo<10:
+    print("ödemeniz gereken üceret =", kilo * 4)
+else:
+    print("ödemeniz gereken üceret =", kilo * 3)
