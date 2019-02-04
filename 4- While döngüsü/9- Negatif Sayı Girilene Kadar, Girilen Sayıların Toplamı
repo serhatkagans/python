@@ -1,0 +1,8 @@
+toplam=0
+while True:
+    a=int(input("pozitif sayı giriniz negatif girerseniz program sonlanır"))
+    if a<0:
+        break
+    else:
+        toplam=toplam+a
+print(toplam)
