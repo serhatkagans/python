@@ -1,0 +1,11 @@
+i=1
+while True:
+    a=int(input("1-10 arası sayı giriniz"))
+    if a>0 and a<10:
+        while i<10:
+            print("{} X {} = ".format(a,i),i*a)
+            i+=1
+
+    else:
+        print("girdiğiniz sayı 1 - 10 arası değil")
+    i = 0
