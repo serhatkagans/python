@@ -1,0 +1,13 @@
+print("asal sayı bulma programı")
+a=int(input("1- 500 arası bir sayı giriniz"))
+asal=0
+i=2
+
+while i<a:
+    if a%i==0:
+        asal+=1
+    i+=1
+if asal ==0:
+    print("girdiğiniz sayı asal")
+else:
+    print("girdiğiniz sayı asal değil")
