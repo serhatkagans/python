@@ -1,0 +1,37 @@
+print("""Hesap makinesine hoş geldiniz
+------------------------------------------
+1. toplama
+2. çıkarma
+3. çarpma
+4. bölme
+5. karesini hesapla
+6. kökünü al
+""")
+islem=input("lütfen bir seçenek giriniz çıkış için q tuşuna basın")
+
+if islem=="q":
+    print("çıkış seçtiniz")
+elif islem=="1":
+    a=int(input("1. sayıyı giriniz"))
+    b=int(input("2. sayıyı griniz"))
+    print("girdiğiniz {} sayısı ile {} sayısının toplamı: ".format(a,b),a+b)
+elif islem=="2":
+    a=int(input("1. sayıyı giriniz"))
+    b=int(input("2. sayıyı griniz"))
+    print("girdiğiniz {} sayısı ile {} sayısının farkı: ".format(a,b),a-b)
+elif islem=="3":
+    a=int(input("1. sayıyı giriniz"))
+    b=int(input("2. sayıyı griniz"))
+    print("girdiğiniz {} sayısı ile {} sayısının çarpımı: ".format(a,b),a*b)
+elif islem=="4":
+    a=int(input("1. sayıyı giriniz"))
+    b=int(input("2. sayıyı griniz"))
+    print("girdiğiniz {} sayısı ile {} sayısının bölümü: ".format(a,b),a/b)
+elif islem=="5":
+    a=int(input("karesi alınacak sayıyı giriniz"))
+    print("girdiğiniz {} sayısının karesi: ".format(a),a**2)
+elif islem=="6":
+    a=int(input("karekökü alınacak sayıyı giriniz"))
+    print("girdiğiniz {} sayısının karekökü: ".format(a),a**0.5)
+else:
+    print("yanlış giriş yaptınız")
