@@ -1,0 +1,6 @@
+a=input("aralarına virgül koyarak istediğinizz kadar sayı giriniz ")
+liste=a.split(",")
+
+for i in range(len(liste)):
+    liste[i]=int(liste[i])
+print(max(liste))
