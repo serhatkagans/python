@@ -1,0 +1,5 @@
+ilk="sdlkfjsldkfjwernwömfndsömcnösmdnfsldkfjsld"
+iki="dskcjsdlkcjsdslrejfdslvkjdxlk"
+for i in ilk:
+    if  not i in iki:
+        print(i,end="")
