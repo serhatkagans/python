@@ -1,0 +1,12 @@
+print("merhaba programa hoşgeldiniz")
+print("-"*40)
+kullaniciadi=input("kullanıcı adınızı giriniz")
+sifre=input("şifrenizi giriniz")
+if kullaniciadi=="admin" and sifre=="1234":
+    print("sisteme hoş geldiniz")
+elif kullaniciadi=="admin" and sifre!="1234":
+    print("şifrenizi yanlış girdiniz")
+elif kullaniciadi!="admin" and sifre=="1234":
+    print("kullanıcı adını yanlış girdiniz")
+else:
+    print("kullanıcı adı şifrenizi yanlış girdiniz")
