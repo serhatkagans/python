@@ -1,0 +1,17 @@
++print("vücut kitle indeksi hesaplama programı")
+boy=float(input("lütfen boyunuzu giriniz: 1.70 şeklinde"))
+kilo=int(input("lütfen kilonuzu giriniz"))
+indeks=kilo/(boy**2)
+print("vücut indeksiniz: ",indeks)
+if indeks<18.5:
+    print("zayıfsınız")
+elif indeks >= 18.5 and indeks<=24.9:
+    print("kilonuz normal")
+elif indeks >=25 and indeks<=29.9:
+    print("fazla kilolu")
+elif indeks >=30 and indeks <=39.9:
+    print("şişman")
+elif indeks>=40:
+    print("obez")
+else:
+    print("yanlış girmiş olabilirsiniz")
