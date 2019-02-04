@@ -1,0 +1,13 @@
+tut=45
+print("1-100 arası bir sayı girdim tahmin et")
+while True:
+    cevap=int(input("1-100 arası bir sayı girin"))
+    if cevap>tut:
+        print("daha küçük bir sayı girmelisin")
+    elif cevap<tut:
+        print("daha büyük bir sayı girmlisin")
+    else:
+        cevap==tut
+        print("tebrikler tuttuğum sayıyı bildin")
+        break
+print("program sonlandı")
