@@ -1,0 +1,12 @@
+n=int(input("lüften notunuzu giriniz"))
+print("-"*30)
+if n>=85:
+    print("pekiyi")
+elif n>=70:
+    print("iyi")
+elif n>=55:
+    print("orta")
+elif n>=45:
+    print("geçer")
+else:
+    print("zayıf")
