@@ -1,0 +1,5 @@
+a=int(input("faktöriyeli alınacak pozitif sayı giriniz: "))
+sonuc=1
+for i in range(1,a+1):
+    sonuc=sonuc*(i)
+print(sonuc)
