@@ -1,2 +1,2 @@
 a=input("isminizi giriniz") # int fonksiyonu kullanılmadığı için girllen değer string'dir
-print("merhaba=",a)
+print("merhaba=",a) 
