@@ -1,0 +1,8 @@
+# yaşa göre bilet fiyatı hesaplayan program
+yas=int(input("lüten yaşınızı giriniz"))
+if yas<18:
+    print("bilet fiyatı 15 TL dir")
+elif yas >=18 and yas <65:
+    print("bilet fiyatı 20 tl dir")
+else:
+    print("bilet fiyatı 10 tl dir")
