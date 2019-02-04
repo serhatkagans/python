@@ -1,0 +1,19 @@
+defkullanici="admin"
+defsifre="1234"
+while True:
+    kullanici=input("kullanıcı adı giriniz")
+    sifre=input("şifre giriniz")
+    if kullanici==defkullanici and sifre==defsifre:
+        print("hoş geldiniz")
+        break
+    elif kullanici!=defkullanici and sifre==defsifre:
+        print("kullanıcı adını yanlış girdiniz")
+    elif kullanici==defkullanici and sifre!=defsifre:
+        print("şifreyi yanlış girnizi. şifreyi değiştirmek istemisiniz")
+        cevap=input("seçiminizi yapınız  E/H")
+        if cevap=="E" or cevap=="e":
+            defsifre=input("yeni şifrenizi giriniz")
+            print("Şifreniz başarıyla değiştirildi")
+    else:
+        kullanici!=defkullanici or sifre!=defsifre
+        print("kullanıcı adı şifreyi yanlış girdiniz")
