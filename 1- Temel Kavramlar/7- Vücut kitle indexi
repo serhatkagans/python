@@ -3,3 +3,4 @@ boy=float(input("boyunuzu giriniz 1.70 olacak şekilde"))
 kilo=int(input("kilonuzu giriniz"))
 index=kilo/boy**2
 print("vucut kile indexiniz =",index)
+ 
