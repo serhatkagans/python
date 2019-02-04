@@ -1,0 +1,3 @@
+metin="merhaba"
+for i in metin:
+    print(i)
