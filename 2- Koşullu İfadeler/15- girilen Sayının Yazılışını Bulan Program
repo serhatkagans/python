@@ -1,0 +1,17 @@
+a=int(input("0 ile 5 arası bir sayı giriniz"))
+if a==0:
+    print("girdiğiniz sayı yazıyla: sıfır")
+elif a==1:
+    print("girdiğiniz sayı: bir")
+elif a==2:
+    print("girdiğiniz sayı: iki")
+elif a==3:
+    print("girdiğiniz sayı: üç")
+elif a==4:
+    print("girdiğiniz sayı: dört")
+elif a==5:
+    print("girdiğiniz sayı: beş")
+elif a>5:
+    print("girdiğiniz sayı 5 ten büyük")
+elif a<0:
+    print("girdiğiniz sayı 0 dan küçük")
