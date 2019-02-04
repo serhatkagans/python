@@ -1,0 +1,4 @@
+v= int(input("devre gerilem değerini giriniz"))
+r=int(input("direnç değerini giriniz"))
+a=v/r
+print("devrenin akım değeri =",a)
