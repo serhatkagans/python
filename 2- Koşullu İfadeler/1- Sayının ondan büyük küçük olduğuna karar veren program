@@ -1,7 +1,0 @@
-a=int(input("bir sayı giriniz"))
-if a>10:
-    print("girdiğiniz sayı 10 dan büyüktür")
-if a<10:
-    print("girdiğiniz sayı 10 dan küçüktür")
-if a==10:
-    print("girdiğiniz sayı 10 dur")
