@@ -1,0 +1,27 @@
+print(""""hesap minesine hoş geldiniz
+1- topla
+2- çıkar
+3- çarp
+4-böl
+\n""",50*"*")
+x=1
+while x==1:
+    soru=input("Bir seçim yapınız, çıkış için q tuşuna basın")
+    if soru=="q":
+        x=0
+    if soru=="1":
+        a=int(input("birinci sayıyı giriniz"))
+        b=int(input("ikinci sayıyı giriniz"))
+        print("girdiğiniz sayılardan {} ile {} nin toplamı= {}".format(a,b,a+b))
+    if soru=="2":
+        a=int(input("birinci sayıyı giriniz"))
+        b=int(input("ikinci sayıyı giriniz"))
+        print("girdiğiniz sayılardan {} ile {} nin farkı= {}".format(a,b,a-b))
+    if soru=="3":
+        a=int(input("birinci sayıyı giriniz"))
+        b=int(input("ikinci sayıyı giriniz"))
+        print("girdiğiniz sayılardan {} ile {} nin çarpımı= {}".format(a,b,a*b))
+    if soru=="4":
+        a=int(input("birinci sayıyı giriniz"))
+        b=int(input("ikinci sayıyı giriniz"))
+        print("girdiğiniz sayılardan {} ile {} nin bölümü= {}".format(a,b,a/b))
