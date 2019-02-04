@@ -1,0 +1,6 @@
+sifre="123456"
+a=input("şifrenizi giriniz:  ")
+if a==sifre:
+    print("hoş geldiniz")
+else:
+    print("yanlış şifre girdiniz")
