@@ -1,0 +1,7 @@
+print("kullanıcının girdiği iki sayının büyüğünü bulan program")
+a=int(input("1. sayıyı giriniz"))
+b=int(input("ikinci sayıyı giriniz"))
+if a>b:
+    print("girdiğiniz iki sayıdan büyük olanı: ",a)
+else:
+    print("girdiğiniz iki sayıdan büyük olanı",b)
