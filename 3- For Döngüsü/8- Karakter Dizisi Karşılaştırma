@@ -1,0 +1,9 @@
+# 1. dizide olup diğerinde olmayan karakterleri bulan program
+ilk="sdlkfjslkdfjsdlfjsljdkdlkşkdf"
+iki="dflkjvdlkgjdflkfgdkjgldvxcvc"
+liste=""
+for i in ilk:
+    if not i in iki:
+        if i not in liste:
+            liste=liste+i
+print(liste)
