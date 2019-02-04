@@ -1,0 +1,3 @@
+liste=["bir","iki","üç","dört"]
+for i in liste:
+    print(i)
