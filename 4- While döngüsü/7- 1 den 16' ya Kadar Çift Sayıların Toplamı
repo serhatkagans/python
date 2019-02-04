@@ -1,0 +1,7 @@
+i=1
+toplam=0
+while i<=16:
+    if i%2==0:
+        toplam+=i
+    i+=1
+print(toplam)
