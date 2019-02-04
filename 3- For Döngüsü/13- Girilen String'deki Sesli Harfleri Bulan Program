@@ -1,0 +1,5 @@
+sesli="aeıioöuü"
+a=input("sesli harfleri bulunacak ifade giriniz")
+for i in a:
+    if i in sesli:
+        print(i,end="")
