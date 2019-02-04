@@ -1,0 +1,10 @@
+s=1
+i=1
+j=1
+print(s)
+while j<100:
+
+    i=s
+    print(s)
+    s+=i
+    j+=1
