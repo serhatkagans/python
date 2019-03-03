@@ -1,0 +1,5 @@
+kare=lambda x:x**2
+print(kare(5))
+
+tersinial=lambda x:x[::-1]
+print(tersinial("merhaba"))
