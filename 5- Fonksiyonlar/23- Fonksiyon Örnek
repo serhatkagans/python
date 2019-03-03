@@ -1,0 +1,11 @@
+# İki basamaklı bir sayının okunuşunu yazan program
+def yazi(a):
+    birler=[" ","bir","iki","üç","dört","beş","altı","yedi","sekiz","dokuz"]
+    onlar = ["","on", "yirmi", "otuz", "kırk", "elli", "altmış", "yetmiş", "seksen", "doksan"]
+    bir=a%10
+    on=a//10
+    print(onlar[on],birler[bir])
+
+
+a=int(input("bir sayı giriniz"))
+yazi(a)
