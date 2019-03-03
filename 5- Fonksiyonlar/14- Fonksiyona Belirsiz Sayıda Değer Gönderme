@@ -1,0 +1,6 @@
+def toplam(*x):
+    toplam=0
+    for i in x:
+        toplam+=i
+    print(toplam)
+toplam(4,5,6,7,8)
