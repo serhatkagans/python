@@ -1,0 +1,3 @@
+def toplam(a,b):
+    print("işlemin sonucu: ",a+b)
+toplam(4,5)
