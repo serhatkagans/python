@@ -1,0 +1,5 @@
+def toplam(a,b):
+    print("işlemin sonucu: ",a+b)
+x=int(input("birinci sayıyı giriniz"))
+y=int(input("ikinci sayıyı giriniz"))
+toplam(x,y)
