@@ -2,10 +2,10 @@ def faktor(x):
     sonuc=1
     if x>=1:
         for i in range(1,x+1):
-            sonuc*=1
+            sonuc*=i
         print(sonuc)
     elif x==0 or x==1:
-        print(i)
+        print(x)
     else:
         print("negatif sayının faktöriyeli olamaz")
 faktor(-5)
