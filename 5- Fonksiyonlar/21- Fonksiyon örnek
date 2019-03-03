@@ -1,0 +1,11 @@
+# girilen sayının asal olup olmadığını bulan program
+def asal(x):
+    a=0
+    for i in range(2,x):
+        if x%i==0:
+            a+=1
+    if a==0:
+        print(x,"sayısı asal")
+    else:
+        print(x,"sayısı asal değil")
+asal(6)
