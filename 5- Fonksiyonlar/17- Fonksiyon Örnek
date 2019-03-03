@@ -1,0 +1,3 @@
+def kareal(x):
+    return x*x
+print(kareal(5))
