@@ -1,0 +1,3 @@
+def selamlama(isim):
+    print("merhaba",isim)
+selamlama("serhat")
