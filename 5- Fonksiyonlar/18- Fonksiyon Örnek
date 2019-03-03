@@ -1,0 +1,7 @@
+# Kullanıcıdan iki adet sayı alarak değişkenleri parametre olarak fonksiyona gönderen ve bu sayıların çarpımını bularak ana programa return fonksiyonu ile dönderen programı yazınız.
+
+def carp(a,b):
+    return a*b
+x=int(input("birinci sayıyı giriniz"))
+y=int(input("ikinci sayıyı giriniz"))
+print(carp(x,y))
