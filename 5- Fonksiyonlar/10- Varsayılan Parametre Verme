@@ -1,0 +1,5 @@
+def hesap(x="değer girilmedi"):
+    print("girilen sayı: ",x)
+hesap()
+
+    
