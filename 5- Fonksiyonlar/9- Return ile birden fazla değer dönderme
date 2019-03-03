@@ -1,0 +1,7 @@
+def hesap(x,y):
+    c=2*(x+y)
+    a=x*y
+    return c,a
+c,a=hesap(5,6)
+print("dikdörtgenin çevresi ",c)
+print("dikdörtgenin alanı",a)
