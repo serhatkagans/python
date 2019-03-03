@@ -1,0 +1,4 @@
+def bilgiler(adı="bilgi girilmedi",soyadı="bilgi girilmedi",numara="bilgi girilmedi"):
+    print("adı: {}\n soyadı: {}\n numarası: {}".format(adı,soyadı,numara))
+# isim ve soyisim bilgileri girilmeyecek
+bilgiler(numara=25)
