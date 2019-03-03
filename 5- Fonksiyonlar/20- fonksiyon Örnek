@@ -1,0 +1,10 @@
+# 8.	Kullanıcıdan q harfi girilene kadar sürekli isim isteyen ve isimleri lambda fonksiyonu ile listeye ekleyen bir program yazınız.
+liste=[]
+isimler=lambda isim:liste.append(isim)
+while True:
+    isim=input("isminizi giriniz çıkış için q")
+    if isim=="q":
+        break
+    isimler(isim)
+print("girdiğiniz isimler",liste)
+
