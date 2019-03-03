@@ -1,0 +1,12 @@
+def topla(a,b):
+    print("toplam",a+b)
+def fark(a,b):
+    print("toplam",a-b)
+def carpim(a,b):
+    print("toplam",a*b)
+def bolum(a,b):
+    print("toplam",a/b)
+topla(9,3)
+fark(9,3)
+carpim(9,3)
+bolum(9,3)
