@@ -1,0 +1,13 @@
+# girilen sayının bölenlerini bulan program
+
+def bolen(liste1,x):
+    for i in range(2,x+1):
+        if x%i==0:
+            liste1.append(i)
+    print(liste1)
+
+liste=[]
+a=int(input("sayıyı giriniz"))
+bolen(liste,a)
+
+
