@@ -1,0 +1,12 @@
+# Kullanıcıdan iki adet sayı alarak bu sayıların toplamı, farkı, çarpımı ve bölümünü bulan bir lambda fonksiyonu yazınız.
+
+x=int(input("1. sayıyı giriniz"))
+y=int(input("2. sayıyı giriniz"))
+toplam=lambda a,b:a+b
+fark=lambda a,b:a-b
+carpim=lambda a,b:a*b
+bolum=lambda a,b:a/b
+print(toplam(x,y))
+print(fark(x,y))
+print(carpim(x,y))
+print(bolum(x,y))
