@@ -1,0 +1,16 @@
+kategori = int(input("1)Korku, 2)Animasyon, 3)Aksiyon bir kategori seçiniz."))
+
+if kategori == 1:
+    fiyat = int(input("Sinema bileti için ne kadar paran var?"))
+    if (fiyat>20 and fiyat<100):
+        film = int(input("1)Korku Gecesi, 2)Elcin, 3)Hayaletli Ev filmlerinden birini seçiniz."))
+        if film == 1:
+            print("Korku Gecesi filmini izleyebilirsiniz. İyi seyirler.")
+        elif film == 2:
+            print("Elcin filmini izleyebilirsiniz. İyi seyirler.")
+        elif film == 3:
+            print("Hayaletli Ev filmini izleyebilirsiniz. İyi seyirler.")
+        else:
+            print("Korku kategorisinde yalnızca 3 film bulunmaktadır.")
+    else:
+        print("Bütçenize uygun film bulunmamaktadır.")
