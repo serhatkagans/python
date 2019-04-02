@@ -1,0 +1,23 @@
+oyun = input("Hangi STEAM oyununu istiyorsunuz?")
+
+if oyun ==("X"):
+    version = int(input("Hangi versiyonu istiyorsunuz?"))
+    if(version == 1 or version == 2):
+        print("X",version,"versiyonunun ücreti 30tldir.")
+    elif(version == 3):
+        print("X",version,"versiyonunun ücreti 40tldir.")
+    else:
+        print("Aradığınız versiyon bulunmamaktadır.")
+        
+elif oyun ==("Y"):
+    print("Y oyunun ücreti 15tldir.")
+
+elif oyun ==("Z"):
+    version = int(input("Hangi versiyonu istiyorsunuz?"))
+    if(version == 1 or version == 2):
+        print("Z",version,"versiyonunun ücreti 20tldir.")
+    else:
+        print("Aradığınız versiyon bulunmamaktadır.")
+else:
+    print("Sadece X, Y veya Z oyunlarını alabilirsiniz.")
+    
